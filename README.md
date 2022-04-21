@@ -1,28 +1,19 @@
 # African Cafe
-
 African cafe is an online Restaurant that helps
 users to order for their foods and drinks online,
 and get it delivered to them or by pickup.
+You can check it out here - [AfricanCafe](https://africancafe.netlify.app/).
 
 ## Features
 
 ### `1. Home`
-### `2. About`
-### `3. Products`
-### `4. Contact`
-
-### `Home`
-
 Home Contains our landing page.
 
-### `About`
-
+### `2. About`
 About contains information about us.
 
-### `Products`
-
+### `3. Products`
 Product contains our product sections (foods and drinks)
 
-### `Contact`
-
+### `4. Contact`
 Contact contains our office address.
