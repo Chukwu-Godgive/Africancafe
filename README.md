@@ -7,22 +7,22 @@ and get it delivered to them or by pickup.
 ## Features
 
 ### `1. Home`
-#### `2. About`
-##### `3. Products`
-###### `4. Contact`
+### `2. About`
+### `3. Products`
+### `4. Contact`
 
 ### `Home`
 
 Home Contains our landing page.
 
-#### `About`
+### `About`
 
 About contains information about us.
 
-##### `Products`
+### `Products`
 
 Product contains our product sections (foods and drinks)
 
-###### `Contact`
+### `Contact`
 
 Contact contains our office address.
