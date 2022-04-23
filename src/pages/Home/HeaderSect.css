@@ -1,0 +1,36 @@
+
+.wrapper {
+    display: flex;
+    background-image: url("https://media.istockphoto.com/photos/abstract-black-background-picture-id1135393596?k=20&m=1135393596&s=612x612&w=0&h=ob1BCWOplylHncQcQ4Y9Ja2E9fI0FY9sQvwydOFIJ4Y=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    min-height: 30vh;
+  }
+  
+ .delivery-wrapper {
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 70px;
+    padding-left: 10px;
+  }
+  
+  .time-wrapper {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  .title{
+      margin-bottom: 15px;
+  }
+
+  span{
+      color: yellow;
+  }
+  
+
