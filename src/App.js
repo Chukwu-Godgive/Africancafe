@@ -1,9 +1,12 @@
 import './App.css';
+import HeaderSect from './components/home/HeaderSect';
+import Home from './components/home/Home';
 
 function App() {
   return (
     <div>
-        <h1>Here will contain our components</h1>
+        <Home/>
+        <HeaderSect />
     </div>
   );
 }
