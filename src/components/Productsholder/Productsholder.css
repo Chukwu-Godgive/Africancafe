@@ -1,0 +1,50 @@
+.product-holder {
+    width: 300px;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.product-innerholder {
+    margin: 1px;
+    padding: 1px;
+    text-align: center;
+    
+}
+
+.product-image img{
+    width: 200px;
+    height: 190px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: -4px 4px 5px rgba(44, 41, 41, 0.438);
+}
+
+.product-name {
+   
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.product-description {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+}
+
+.product-button {
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: white;
+    border: none;
+    background-color: red;
+    padding: 1px 15px 1px 15px;
+    border-radius: 10px;
+}

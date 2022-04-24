@@ -1,0 +1,116 @@
+/* This Style handles both the App.js and Products.js */
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+  }
+  
+  .products-container {
+    max-width: 100%;
+    align-items: center;
+    margin: 0 5rem 0 5rem;
+    box-sizing: border-box;
+    min-height: 100vh;
+  
+  }
+  
+  .products-heading {
+    text-align: center;
+  }
+  
+  .products-subheading {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+  
+  .products-all {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  .products {
+    margin-right: 50px;
+    margin-left: 50px;
+    display: grid;
+  }
+  
+  
+  /* /* This handles Mobile Screen View  */
+  
+  /* Mobile 391px responsivenes using media query */
+  @media screen and (max-width: 600px) {
+    .products-container {
+      margin: 0 0.1 0 0.1rem;
+    }
+    
+    .products-heading {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    
+    .products-subheading {
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 50px;
+      font-size: 1.2rem;
+    }
+    
+    .products-all {
+      display: flex;
+      
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      max-width: 100vw;
+      z-index: 2;
+    }
+    
+    .products-all {
+      display: grid;
+      grid-template-columns: 200px 200px 200;
+    }
+  
+    .products {
+      margin-right: 1px;
+      margin-left: 1px;
+      display: grid;
+    }
+  }
+  
+  /* Mobile 391px responsivenes using media query */
+  @media screen and (max-width: 391px) {
+    .products-container {
+      margin: 0 0.1rem 0 0.1rem;
+    }
+    
+    .products-heading {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    
+    .products-subheading {
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 50px;
+      font-size: 1.2rem;
+    }
+    
+    .products-all {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 100vw;
+    }
+    
+    .products {
+      margin-right: 1px;
+      margin-left: 1px;
+      display: grid;
+    }
+  }
