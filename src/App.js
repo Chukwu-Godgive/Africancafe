@@ -1,4 +1,3 @@
-import './App.css';
 // import {
 //   BrowserRouter,
 //   Routes,
@@ -7,11 +6,13 @@ import './App.css';
 import Home from './pages/Home/Home';
 import HeaderSect from './pages/Home/HeaderSect';
 
+
 function App() {
   return (
     <div>
         <Home />
         <HeaderSect />
+        
     </div>
   );
 }
