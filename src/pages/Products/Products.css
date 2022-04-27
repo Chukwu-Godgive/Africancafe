@@ -1,11 +1,4 @@
 /* This Style handles both the App.js and Products.js */
-
-*{
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    box-sizing: border-box;
-  }
   
   .products-container {
     max-width: 100%;
