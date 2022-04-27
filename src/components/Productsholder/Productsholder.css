@@ -47,4 +47,5 @@
     background-color: red;
     padding: 1px 15px 1px 15px;
     border-radius: 10px;
+    width: fit-content;
 }
